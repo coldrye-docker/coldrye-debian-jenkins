@@ -1,0 +1,26 @@
+version: '2'
+services:
+  jenkins:
+    image: coldrye/debian-jenkins:2-10-jessie-latest
+    volumes:
+      - /var/storages/jenkins:/var/storages/jenkins
+#   exposes:
+#     - "8080"
+#   ports:
+#     - "8080:8080"
+#
+# web:
+#   image: coldrye/debian-nginx:1-9-x-jessie-latest
+#   volumes:
+#     - /var/storages/nginx/reverse-proxy/jenkins.conf:/etc/nginx/sites-enabled/jenkins.conf
+#     - ...
+#   depends_on:
+#     - jenkins
+#     - ...
+#   links:
+#     - npm
+#     - ...
+#   exposes:
+#     - "80:80"
+#     - "443:443"
+
