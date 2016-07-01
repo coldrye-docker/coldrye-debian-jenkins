@@ -1,6 +1,6 @@
 # coldrye-debian-jenkins
 
-[![coldrye/debian-docker-jenkins](http://dockeri.co/image/coldrye/debian-docker-jenkins)](https://hub.docker.com/r/coldrye/debian-docker-jenkins/)
+[![coldrye/debian-jenkins](http://dockeri.co/image/coldrye/debian-jenkins)](https://hub.docker.com/r/coldrye/debian-jenkins/)
 
 
 ## Description
